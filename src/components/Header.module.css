@@ -1,0 +1,76 @@
+.header {
+  width: 1292px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 48px auto;
+  border-radius: 16px; /* Rounded corners */
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%); /* Top-to-bottom gradient */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(42px);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.logo span {
+  color: #00E0B8; /* Teal color for "Station" */
+}
+
+.navLinks a {
+  margin: 0 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8; /* Slight transparency */
+}
+
+.authButtons {
+  display: flex;
+  align-items: center;
+}
+
+.authButtons .login {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.authButtons .signup {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #00E0B8; /* Teal background for "Sign in" */
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.authButtons .becomeTasker {
+  font-size: 18px;
+  font-weight: 400;
+  color: #00E0B8; /* Teal text for "Become a tasker" */
+  background-color: rgba(255, 255, 255, 0.2); /* Light transparent white background */
+  border: 1px solid #00E0B8;
+  padding: 8px 20px;
+  margin-left: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+}
