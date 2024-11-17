@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import MainPage from "./pages/MainPage";
-import ServicePage1 from './pages/servicePage1';
-import ServicePage2 from './pages/ServicePage2';
-import ServicePage3 from './pages/servicePage3';
-import ServicePage4 from './pages/servicePage4';
+import ServicePage1 from './pages/BabysitterPage';
+import ServicePage2 from './pages/ParalysisCarePage';
+import ServicePage3 from './pages/PostnatalCare';
+import ServicePage4 from './pages/NursePage';
 
 
 function App() {
