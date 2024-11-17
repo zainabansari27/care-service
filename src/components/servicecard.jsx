@@ -8,7 +8,7 @@ const ServiceCard = ({ title, price, imgUrl,pageName }) => {
       <img
         src={imgUrl}
         alt={title}
-        className="h-40 w-full object-cover"
+        className="h-80 w-full object-cover"
       /> 
       </Link>
       <div className="p-6 ">

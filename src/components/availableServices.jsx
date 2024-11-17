@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const AvailableServices = () => {
   const services = [
     { title: 'Elder Care', price: '₹5k', imgUrl: 'https://i.ibb.co/qDK2WHS/ed-care.jpg' ,pageName:'edCare' },
-    { title: 'Paralysis Caregiver', price: '₹5k', imgUrl: 'https://i.ibb.co/LpVVrw8/paralysis.jpg', pageName:'paralysisCare' },
+    { title: 'Paralysis Caregiver', price: '₹5k', imgUrl: 'card-paralysis.jpg', pageName:'paralysisCare' },
     { title: 'Postnatal Caregiver', price: '₹5k', imgUrl: 'https://i.ibb.co/sVrg60H/post-natal.jpg',pageName:'postnatalCare' },
-    { title: 'Nurse', price: '₹5k', imgUrl: 'https://i.ibb.co/F62S1J1/babysitter.webp', pageName:'Nurse' },
+    { title: 'Nurse', price: '₹5k', imgUrl: 'Nurse.webp', pageName:'Nurse' },
     { title: 'Something', price: '₹5k', imgUrl: 'https://i.ibb.co/F62S1J1/babysitter.webp', pageName:'Something' },
      { title: 'Baby Sitter', price: '₹5k', imgUrl: 'https://i.ibb.co/F62S1J1/babysitter.webp' ,pageName:'babySitter'},
   ];
